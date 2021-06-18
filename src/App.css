@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+#idcard{
+  border: 1px solid;
+  margin-left: -6px;
+  padding: 0px;
+  margin-bottom: 15px;       
+  /* margin bottom */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#identity{
+  
+  margin-top: 70px;
+  padding: 10px;
+  font-size: 25px;
+  border:  1px solid rgb(49, 84, 150);
+  background-color: rgb(49, 84, 150);
   color: white;
+  text-align: center;
+  
+ 
+
 }
 
-.App-link {
-  color: #61dafb;
+#name{
+  width: 200px;
+  border: 1px solid black;
+  font-weight: bold;
+}
+#namedetail{
+  border: 1px solid black;
+  width: 200%;
+  font-weight: bold;
+}
+#Qrcode{
+  
+  margin-top: 70px;
+  padding: 10px;
+  font-size: 25px;
+
+}
+#Smiit{
+  font-size: 35px;
+}
+#qrSize{
+height: 166px;
+position: relative;
+}
+#qrSizebox{
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 130PX;
+  width: 140px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#qr{
+  padding-left: 1px;
+  padding-right: 1px;
+  border: 1px solid;
+  height: 286px;
+  margin-bottom: 15px;       
+  /* margin bottom */
+}
+#smitprogram{
+  font-weight: bold;
+font-size: 16px;
+}
+#photo{
+  height: 152px;
+  border: 1px solid black;
+
 }
