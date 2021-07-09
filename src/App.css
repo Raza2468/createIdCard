@@ -2,7 +2,7 @@
   border: 1px solid;
   margin-left: -6px;
   padding: 0px;
-  margin-bottom: 15px;       
+  margin-bottom: 10px;       
   /* margin bottom */
 }
 #identity{
@@ -25,9 +25,10 @@
   font-weight: bold;
 }
 #namedetail{
-  border: 1px solid black;
+  border: 1px solid ;
   width: 200%;
   font-weight: bold;
+  font-size: 16px;
 }
 #Qrcode{
   
@@ -57,7 +58,7 @@ position: relative;
   padding-left: 1px;
   padding-right: 1px;
   border: 1px solid;
-  height: 286px;
+  height: 302px;
   margin-bottom: 15px;       
   /* margin bottom */
 }
@@ -66,7 +67,7 @@ position: relative;
 font-size: 16px;
 }
 #photo{
-  height: 152px;
+  height: 168px;
   border: 1px solid black;
 
 }
