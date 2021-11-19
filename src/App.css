@@ -1,73 +1,75 @@
-#idcard{
+#idcard {
   border: 1px solid;
   margin-left: -6px;
   padding: 0px;
-  margin-bottom: 10px;       
+  margin-bottom: 10px;
   /* margin bottom */
 }
-#identity{
-  
-  margin-top: 70px;
-  padding: 10px;
+#identity {
+  margin-top: 6px;
+  /* padding: 10px 0; */
   font-size: 25px;
-  border:  1px solid rgb(49, 84, 150);
+  border: 1px solid rgb(49, 84, 150);
   background-color: rgb(49, 84, 150);
   color: white;
-  text-align: center;
-  
- 
-
+  /* text-align: center;
+  justify-content: center; */
+  /* padding: 10px 0; */
+  display: inline-block;
+  vertical-align: middle;
+  /* border: 1px solid green; */
 }
 
-#name{
+#name {
   width: 200px;
   border: 1px solid black;
   font-weight: bold;
 }
-#namedetail{
-  border: 1px solid ;
+#namedetail {
+  border: 1px solid;
   width: 200%;
   font-weight: bold;
   font-size: 16px;
 }
-#Qrcode{
-  
-  margin-top: 70px;
-  padding: 10px;
+#Qrcode {
+  margin-top: -12px;
+  padding: 8px;
   font-size: 25px;
-
+  justify-content: center;
+  display: inline-block;
+  vertical-align: middle;
 }
-#Smiit{
+
+#Smiit {
   font-size: 35px;
 }
-#qrSize{
-height: 166px;
-position: relative;
+#qrSize {
+  height: 166px;
+  position: relative;
 }
-#qrSizebox{
+#qrSizebox {
   margin: 0;
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 130PX;
+  height: 130px;
   width: 140px;
 }
 
-#qr{
+#qr {
   padding-left: 1px;
   padding-right: 1px;
   border: 1px solid;
   height: 302px;
-  margin-bottom: 15px;       
+  margin-bottom: 15px;
   /* margin bottom */
 }
-#smitprogram{
+#smitprogram {
   font-weight: bold;
-font-size: 16px;
+  font-size: 16px;
 }
-#photo{
+#photo {
   height: 168px;
   border: 1px solid black;
-
 }

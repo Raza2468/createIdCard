@@ -84,14 +84,14 @@ function App() {
 
             // <tr key={d.Sno}>
             <div class="" >
-              <div class="w-50  float-left" id="idcard">
+              <div className="w-50  float-left" id="idcard">
 
 
-                <div class="w-50 p-3 float-left " ><img src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png" height="48px" width="" /> </div>
-                <div class="w-50 p-3 float-right text-center" id="smitprogram">SAYLANI MASS<br />IT TRAINING PROGRAM</div>
+                <div className="w-50 p-3 float-left " ><img src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png" height="48px" width="" /> </div>
+                <div className="w-50 p-3 float-right text-center" id="smitprogram">SAYLANI MASS<br />IT TRAINING PROGRAM</div>
 
 
-                <div class="w-100 text-center" id="identity"><b>IDENTITY CARD</b> </div>
+                <div className="w-100 text-center" id="identity"><b>IDENTITY CARD</b> </div>
 
                 <div class="w-75 h-50 float-left" >
                   {/* Width 45% */}
@@ -127,7 +127,7 @@ function App() {
                 {/* <QRCode id="abc" value={d.Qrcode} /> */}
                 <div id="qrSize">
                   <div id="qrSizebox">
-                    {<QRCode size="139" value={d.RollNo} />}
+                    {<QRCode size="135" value={d.RollNo} />}
                   </div>
 
 
